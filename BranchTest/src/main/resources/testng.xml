@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Branch Application Test Automation Test Suite">
+
+	<test name="Branch App Test Cases">
+		<classes>
+			<class name="com.branch.qa.testcases.TeamPageTest"></class>
+			<class name="com.branch.qa.testcases.SignInPageTest"></class>
+		</classes>
+	</test>
+</suite>

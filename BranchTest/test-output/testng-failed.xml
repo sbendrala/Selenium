@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Branch Application Test Automation Test Suite]">
+  <test name="Branch App Test Cases(failed)">
+    <classes>
+      <class name="com.branch.qa.testcases.SignInPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifySignUpFieldsTest"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.branch.qa.testcases.SignInPageTest -->
+      <class name="com.branch.qa.testcases.TeamPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyEmployeeNumberTest"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.branch.qa.testcases.TeamPageTest -->
+    </classes>
+  </test> <!-- Branch App Test Cases(failed) -->
+</suite> <!-- Failed suite [Branch Application Test Automation Test Suite] -->
